@@ -1,0 +1,45 @@
+$ pacman -Qi nouveau-dri
+Name           : nouveau-dri
+Version        : 9.2.1-1
+Description    : Mesa drivers for Nouveau
+Architecture   : x86_64
+URL            : http://mesa3d.sourceforge.net
+Licenses       : custom
+Groups         : None
+Provides       : None
+Depends On     : mesa-libgl=9.2.1
+Optional Deps  : libtxc_dxtn: S3 Texture Compressed support
+Required By    : xf86-video-nouveau
+Optional For   : None
+Conflicts With : None
+Replaces       : None
+Installed Size : 9994,00 KiB
+Packager       : Laurent Carlier <lordheavym@gmail.com>
+Build Date     :  5.10.2013 (сб) 9,39,29 EEST
+Install Date   : 16.10.2013 (ср) 15,13,55 EEST
+Install Reason : Explicitly installed
+Install Script : No
+Validated By   : Signature
+
+$ pacman -Qi xf86-video-nouveau
+Name           : xf86-video-nouveau
+Version        : 1.0.9-1
+Description    : Open Source 2D acceleration driver for nVidia cards
+Architecture   : x86_64
+URL            : http://nouveau.freedesktop.org/
+Licenses       : GPL
+Groups         : xorg-drivers  xorg
+Provides       : None
+Depends On     : libdrm  udev  nouveau-dri
+Optional Deps  : None
+Required By    : None
+Optional For   : None
+Conflicts With : xorg-server<1.14.0  X-ABI-VIDEODRV_VERSION<14  X-ABI-VIDEODRV_VERSION>=15
+Replaces       : None
+Installed Size : 206,00 KiB
+Packager       : Laurent Carlier <lordheavym@gmail.com>
+Build Date     : 31.07.2013 (ср) 0,11,54 EEST
+Install Date   : 16.10.2013 (ср) 15,13,55 EEST
+Install Reason : Explicitly installed
+Install Script : Yes
+Validated By   : Signature
