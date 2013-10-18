@@ -14,7 +14,7 @@ Optional For   : None
 Conflicts With : None
 Replaces       : None
 Installed Size : 9994,00 KiB
-Packager       : Laurent Carlier <lordheavym@gmail.com>
+Packager       : Laurent Carlier <lordheavym [at] gmail [dot] com>
 Build Date     :  5.10.2013 (сб) 9,39,29 EEST
 Install Date   : 16.10.2013 (ср) 15,13,55 EEST
 Install Reason : Explicitly installed
@@ -37,7 +37,7 @@ Optional For   : None
 Conflicts With : xorg-server<1.14.0  X-ABI-VIDEODRV_VERSION<14  X-ABI-VIDEODRV_VERSION>=15
 Replaces       : None
 Installed Size : 206,00 KiB
-Packager       : Laurent Carlier <lordheavym@gmail.com>
+Packager       : Laurent Carlier <lordheavym [at] gmail [dot] com>
 Build Date     : 31.07.2013 (ср) 0,11,54 EEST
 Install Date   : 16.10.2013 (ср) 15,13,55 EEST
 Install Reason : Explicitly installed
